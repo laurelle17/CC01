@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CC01.DAL", "CC01.DAL\CC01.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CC01.BLL", "CC01.BLL\CC01.BLL.csproj", "{5C034363-B86D-41A2-9186-3B7679A81465}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{9698F51D-B6EF-4E1A-A188-94665921D42C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms", "WindowsForms\WindowsForms.csproj", "{02C81A47-CF60-4806-AA0A-B0FB587CEC7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{5C034363-B86D-41A2-9186-3B7679A81465}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C034363-B86D-41A2-9186-3B7679A81465}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C034363-B86D-41A2-9186-3B7679A81465}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9698F51D-B6EF-4E1A-A188-94665921D42C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9698F51D-B6EF-4E1A-A188-94665921D42C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9698F51D-B6EF-4E1A-A188-94665921D42C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9698F51D-B6EF-4E1A-A188-94665921D42C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02C81A47-CF60-4806-AA0A-B0FB587CEC7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C81A47-CF60-4806-AA0A-B0FB587CEC7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C81A47-CF60-4806-AA0A-B0FB587CEC7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C81A47-CF60-4806-AA0A-B0FB587CEC7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

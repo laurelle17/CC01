@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CC01.DAL", "CC01.DAL\CC01.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CC01.BLL", "CC01.BLL\CC01.BLL.csproj", "{5C034363-B86D-41A2-9186-3B7679A81465}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms", "WindowsForms\WindowsForms.csproj", "{02C81A47-CF60-4806-AA0A-B0FB587CEC7F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CC01.WindowsForms", "WindowsForms\CC01.WindowsForms.csproj", "{02C81A47-CF60-4806-AA0A-B0FB587CEC7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

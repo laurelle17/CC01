@@ -52,8 +52,47 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmCreateEcole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCreateEcole.Designer.cs">
+      <DependentUpon>FrmCreateEcole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCreateEtudiant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCreateEtudiant.Designer.cs">
+      <DependentUpon>FrmCreateEtudiant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEcoleEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEcoleEdit.Designer.cs">
+      <DependentUpon>FrmEcoleEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEtudiantEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEtudiantEdit.Designer.cs">
+      <DependentUpon>FrmEtudiantEdit.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCreateEcole.resx">
+      <DependentUpon>FrmCreateEcole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCreateEtudiant.resx">
+      <DependentUpon>FrmCreateEtudiant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEcoleEdit.resx">
+      <DependentUpon>FrmEcoleEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEtudiantEdit.resx">
+      <DependentUpon>FrmEtudiantEdit.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +101,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,6 +115,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swag-yolo-arrière-plan-ordinateur-pour-fille-fond-d-écran-stylé-belle-image-fond-d-écran-fille.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0e123fbc7a4afded2c814a6dbb08a81d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\43ec643e415690208f5d933cf9dcef84.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallpaper tablet HD.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xxik79P-L.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

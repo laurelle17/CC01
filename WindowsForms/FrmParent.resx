@@ -117,38 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="0e123fbc7a4afded2c814a6dbb08a81d" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\0e123fbc7a4afded2c814a6dbb08a81d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="administrative_tools_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\administrative_tools_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="43ec643e415690208f5d933cf9dcef84" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\43ec643e415690208f5d933cf9dcef84.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="help_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\help_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="unnamed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\unnamed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="xxik79P-L" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\xxik79P-L.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="administrative_tools_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\administrative_tools_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="swag-yolo-arrière-plan-ordinateur-pour-fille-fond-d-écran-stylé-belle-image-fond-d-écran-fille" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\swag-yolo-arrière-plan-ordinateur-pour-fille-fond-d-écran-stylé-belle-image-fond-d-écran-fille.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="file_submodule_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\file_submodule_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="wallpaper tablet HD" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wallpaper tablet HD.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="option_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\option_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

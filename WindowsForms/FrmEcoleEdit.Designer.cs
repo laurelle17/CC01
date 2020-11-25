@@ -130,6 +130,7 @@
             this.Quitter.TabIndex = 6;
             this.Quitter.Text = "Quitter";
             this.Quitter.UseVisualStyleBackColor = true;
+            this.Quitter.Click += new System.EventHandler(this.Quitter_Click);
             // 
             // textBox1
             // 

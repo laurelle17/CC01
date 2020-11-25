@@ -41,7 +41,12 @@ namespace CC01.BO
 
         public override int GetHashCode()
         {
-            return 574969646 + EqualityComparer<string>.Default.GetHashCode(Identifiant);
+            return -574969646 + EqualityComparer<string>.Default.GetHashCode(Identifiant);
+        }
+
+        public void Remove(Etudiant etudiants)
+        {
+            throw new NotImplementedException();
         }
     }
 }

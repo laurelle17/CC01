@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CC01.BO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,6 +24,11 @@ namespace WindowsForms
         {
             this.callBack = callBack;
         }
+
+        public FrmCreateEtudiant etudiant etudiant, Action callBack) : this(callBack)
+        {
+            this.NomEtudiant = Etudiant
+
 
 
 

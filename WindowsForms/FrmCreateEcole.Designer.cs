@@ -1,4 +1,6 @@
-﻿namespace WindowsForms
+﻿using System;
+
+namespace WindowsForms
 {
     partial class FrmCreateEcole
     {
@@ -28,18 +30,19 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.TextBox txtNomEcole;
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.email = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.tel = new System.Windows.Forms.Label();
             this.BP = new System.Windows.Forms.Label();
-            this.lieu = new System.Windows.Forms.Label();
+            this.localisation = new System.Windows.Forms.Label();
             this.NomEcole = new System.Windows.Forms.Label();
             this.Quitter = new System.Windows.Forms.Button();
             this.enregistrer = new System.Windows.Forms.Button();
+            txtNomEcole = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textBox5
@@ -61,13 +64,13 @@
             this.email.TabIndex = 30;
             this.email.Text = "Adresse-Mail";
             // 
-            // textBox4
+            // txtNomEcole
             // 
-            this.textBox4.Location = new System.Drawing.Point(13, 46);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(281, 20);
-            this.textBox4.TabIndex = 27;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            txtNomEcole.Location = new System.Drawing.Point(13, 46);
+            txtNomEcole.Name = "txtNomEcole";
+            txtNomEcole.Size = new System.Drawing.Size(281, 20);
+            txtNomEcole.TabIndex = 27;
+            txtNomEcole.TextChanged += new System.EventHandler(this.TextBox4_TextChanged);
             // 
             // textBox3
             // 
@@ -113,18 +116,20 @@
             this.BP.Size = new System.Drawing.Size(109, 18);
             this.BP.TabIndex = 22;
             this.BP.Text = "Boite Postale";
+            this.BP.Click += new System.EventHandler(this.BP_Click);
             // 
-            // lieu
+            // localisation
             // 
-            this.lieu.AutoSize = true;
-            this.lieu.BackColor = System.Drawing.Color.Transparent;
-            this.lieu.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lieu.ForeColor = System.Drawing.Color.Chocolate;
-            this.lieu.Location = new System.Drawing.Point(3, 93);
-            this.lieu.Name = "lieu";
-            this.lieu.Size = new System.Drawing.Size(99, 18);
-            this.lieu.TabIndex = 21;
-            this.lieu.Text = "Localisation";
+            this.localisation.AutoSize = true;
+            this.localisation.BackColor = System.Drawing.Color.Transparent;
+            this.localisation.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.localisation.ForeColor = System.Drawing.Color.Chocolate;
+            this.localisation.Location = new System.Drawing.Point(3, 93);
+            this.localisation.Name = "localisation";
+            this.localisation.Size = new System.Drawing.Size(99, 18);
+            this.localisation.TabIndex = 21;
+            this.localisation.Text = "Localisation";
+            this.localisation.Click += new System.EventHandler(this.lieu_Click);
             // 
             // NomEcole
             // 
@@ -142,6 +147,7 @@
             // Quitter
             // 
             this.Quitter.BackColor = System.Drawing.Color.Chocolate;
+            this.Quitter.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.Quitter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Quitter.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Quitter.ForeColor = System.Drawing.Color.Red;
@@ -151,6 +157,7 @@
             this.Quitter.TabIndex = 19;
             this.Quitter.Text = "Quitter";
             this.Quitter.UseVisualStyleBackColor = false;
+            this.Quitter.Click += new System.EventHandler(this.Quitter_Click);
             // 
             // enregistrer
             // 
@@ -164,6 +171,7 @@
             this.enregistrer.TabIndex = 18;
             this.enregistrer.Text = "Enregistrer";
             this.enregistrer.UseVisualStyleBackColor = false;
+            this.enregistrer.Click += new System.EventHandler(this.enregistrer_Click);
             // 
             // FrmCreateEcole
             // 
@@ -174,13 +182,13 @@
             this.ClientSize = new System.Drawing.Size(508, 539);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.email);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(txtNomEcole);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.tel);
             this.Controls.Add(this.BP);
-            this.Controls.Add(this.lieu);
+            this.Controls.Add(this.localisation);
             this.Controls.Add(this.NomEcole);
             this.Controls.Add(this.Quitter);
             this.Controls.Add(this.enregistrer);
@@ -191,18 +199,22 @@
 
         }
 
+        private void TextBox4_TextChanged(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
         #endregion
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label email;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label tel;
         private System.Windows.Forms.Label BP;
-        private System.Windows.Forms.Label lieu;
         private System.Windows.Forms.Label NomEcole;
         private System.Windows.Forms.Button Quitter;
         private System.Windows.Forms.Button enregistrer;
+        private System.Windows.Forms.Label localisation;
     }
 }

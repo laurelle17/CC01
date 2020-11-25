@@ -83,6 +83,56 @@ namespace WindowsForms.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap administrative_tools_32px {
+            get {
+                object obj = ResourceManager.GetObject("administrative_tools_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap administrative_tools_48px {
+            get {
+                object obj = ResourceManager.GetObject("administrative_tools_48px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap file_submodule_40px {
+            get {
+                object obj = ResourceManager.GetObject("file_submodule_40px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap help_48px {
+            get {
+                object obj = ResourceManager.GetObject("help_48px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap option_24px {
+            get {
+                object obj = ResourceManager.GetObject("option_24px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap swag_yolo_arrière_plan_ordinateur_pour_fille_fond_d_écran_stylé_belle_image_fond_d_écran_fille {
             get {
                 object obj = ResourceManager.GetObject("swag-yolo-arrière-plan-ordinateur-pour-fille-fond-d-écran-stylé-belle-image-fo" +

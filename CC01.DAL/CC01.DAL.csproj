@@ -45,7 +45,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="EcoleDAO.cs" />
+    <Compile Include="EtudiantDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

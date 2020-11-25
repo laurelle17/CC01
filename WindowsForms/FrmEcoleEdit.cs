@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CC01.BLL;
+using CC01.BO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -54,7 +56,23 @@ namespace WindowsForms
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                if (
+                    MessageBox.Show
+                    (
+                        "Voulez-vous vraiment supprimer cet etudiant ?",
+                        "Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Question
+                    ) == DialogResult.Yes
+                )
+                {
+                    for (int i = 0; i < dataGridView1.SelectedRows.Count; i++)
+                    {
+                        EtudiantBLO.DeleteEtudiant(dataGridView1.SelectedRows[i].DataBoundItem as Etudiant);
+                    }
+                    loadData();
+                }
+            }
         }
 
         private void Actualiser_Click(object sender, EventArgs e)
@@ -65,6 +83,11 @@ namespace WindowsForms
         private void Ajouter_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Quitter_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }

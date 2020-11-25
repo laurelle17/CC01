@@ -24,7 +24,7 @@ namespace CCO1
                     string Identifiant = Console.ReadLine();
                     Console.Write("Entrer le nom\t:");
                     string nomEtudiant = Console.ReadLine();
-                    Console.Write("Entrer la datee de naissance\t:");
+                    Console.Write("Entrer la date de naissance\t:");
                     string Date = Console.ReadLine();
                     Console.Write("Entrer le lieu de naissance\t:");
                     string lieu = Console.ReadLine();

@@ -21,13 +21,13 @@ namespace CC01.BO
 
         }
 
-        public Ecole(string nomEcole, string lieu, long v, string tel, string bP, string email)
+        public Ecole(string nomEcole, string lieu, long v, string tel, string bP, string Email)
         {
             NomEcole = nomEcole;
             this.lieu = lieu;
             this.tel = tel;
             BP = bP;
-            this.email = email;
+            email = Email;
         }
     }
 }
